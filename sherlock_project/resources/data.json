@@ -234,7 +234,7 @@
   "BOOTH": {
     "errorType": "response_url",
     "errorUrl": "https://booth.pm/",
-    "regexCheck": "^[a-zA-Z0-9@_-]$",
+    "regexCheck": "^[\\w@-]+?$",
     "url": "https://{}.booth.pm/",
     "urlMain": "https://booth.pm/",
     "username_claimed": "blue"
@@ -397,7 +397,7 @@
   "Carbonmade": {
     "errorType": "response_url",
     "errorUrl": "https://carbonmade.com/fourohfour?domain={}.carbonmade.com",
-    "regexCheck": "^[a-zA-Z0-9@_-]$",
+    "regexCheck": "^[\\w@-]+?$",
     "url": "https://{}.carbonmade.com",
     "urlMain": "https://carbonmade.com/",
     "username_claimed": "jenny"
@@ -571,7 +571,7 @@
   },
   "Crevado": {
     "errorType": "status_code",
-    "regexCheck": "^[a-zA-Z0-9@_-]$",
+    "regexCheck": "^[\\w@-]+?$",
     "url": "https://{}.crevado.com",
     "urlMain": "https://crevado.com/",
     "username_claimed": "blue"
@@ -728,6 +728,7 @@
   },
   "Exposure": {
     "errorType": "status_code",
+    "regexCheck": "^[a-zA-Z0-9-]{1,63}$",
     "url": "https://{}.exposure.co/",
     "urlMain": "https://exposure.co/",
     "username_claimed": "jonasjacobsson"
@@ -929,7 +930,7 @@
   },
   "GitBook": {
     "errorType": "status_code",
-    "regexCheck": "^[a-zA-Z0-9@_-]$",
+    "regexCheck": "^[\\w@-]+?$",
     "url": "https://{}.gitbook.io/",
     "urlMain": "https://gitbook.com/",
     "username_claimed": "gitbook"
@@ -1198,7 +1199,7 @@
   },
   "Itch.io": {
     "errorType": "status_code",
-    "regexCheck": "^[a-zA-Z0-9@_-]$",
+    "regexCheck": "^[\\w@-]+?$",
     "url": "https://{}.itch.io/",
     "urlMain": "https://itch.io/",
     "username_claimed": "blue"
@@ -1219,7 +1220,7 @@
   },
   "Jimdo": {
     "errorType": "status_code",
-    "regexCheck": "^[a-zA-Z0-9@_-]$",
+    "regexCheck": "^[\\w@-]+?$",
     "url": "https://{}.jimdosite.com",
     "urlMain": "https://jimdosite.com/",
     "username_claimed": "jenny"
@@ -1707,7 +1708,7 @@
   },
   "Rajce.net": {
     "errorType": "status_code",
-    "regexCheck": "^[a-zA-Z0-9@_-]$",
+    "regexCheck": "^[\\w@-]+?$",
     "url": "https://{}.rajce.idnes.cz/",
     "urlMain": "https://www.rajce.idnes.cz/",
     "username_claimed": "blue"
@@ -1909,6 +1910,7 @@
   },
   "SmugMug": {
     "errorType": "status_code",
+    "regexCheck": "^[a-zA-Z]{1,35}$",
     "url": "https://{}.smugmug.com",
     "urlMain": "https://smugmug.com",
     "username_claimed": "winchester"
@@ -2300,7 +2302,7 @@
   },
   "WebNode": {
     "errorType": "status_code",
-    "regexCheck": "^[a-zA-Z0-9@_-]$",
+    "regexCheck": "^[\\w@-]+?$",
     "url": "https://{}.webnode.cz/",
     "urlMain": "https://www.webnode.cz/",
     "username_claimed": "radkabalcarova"
@@ -2314,6 +2316,7 @@
   },
   "Weebly": {
     "errorType": "status_code",
+    "regexCheck": "^[a-zA-Z0-9-]{1,63}$",
     "url": "https://{}.weebly.com/",
     "urlMain": "https://weebly.com/",
     "username_claimed": "blue"
@@ -2340,7 +2343,7 @@
   },
   "Wix": {
     "errorType": "status_code",
-    "regexCheck": "^[a-zA-Z0-9@_-]$",
+    "regexCheck": "^[\\w@-]+?$",
     "url": "https://{}.wix.com",
     "urlMain": "https://wix.com/",
     "username_claimed": "support"
@@ -2711,7 +2714,7 @@
   },
   "nnRU": {
     "errorType": "status_code",
-    "regexCheck": "^[a-zA-Z0-9@_-]$",
+    "regexCheck": "^[\\w@-]+?$",
     "url": "https://{}.www.nn.ru/",
     "urlMain": "https://www.nn.ru/",
     "username_claimed": "blue"
@@ -2789,7 +2792,7 @@
   },
   "skyrock": {
     "errorType": "status_code",
-    "regexCheck": "^[a-zA-Z0-9@_-]$",
+    "regexCheck": "^[\\w@-]+?$",
     "url": "https://{}.skyrock.com/",
     "urlMain": "https://skyrock.com/",
     "username_claimed": "red"
