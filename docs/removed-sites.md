@@ -1957,7 +1957,7 @@ __2025-02-02 :__ Fiverr added CSRF protections that messed with this test
 ```
 
 ## BabyRU
-__2025-02-02 :__ Just being problematic
+__2025-02-02 :__ Just being problematic (possibly related to errorMsg encoding?)
 ```json
 "babyRU": {
     "errorMsg": [
@@ -1968,5 +1968,17 @@ __2025-02-02 :__ Just being problematic
     "url": "https://www.baby.ru/u/{}/",
     "urlMain": "https://www.baby.ru/",
     "username_claimed": "blue"
+  }
+```
+
+## v0.dev
+__2025-02-16 :__ Unsure if any way to view profiles exists now
+```json
+"v0.dev": {
+    "errorType": "message",
+    "errorMsg": "<title>v0 by Vercel</title>",
+    "url": "https://v0.dev/{}",
+    "urlMain": "https://v0.dev",
+    "username_claimed": "t3dotgg"
   }
 ```
